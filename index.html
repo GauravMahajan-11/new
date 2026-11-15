@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="heading">Student Registration Form</h1>
+
+    <button onclick="changeTheme()">Change Theme</button>
+
+    <form id="myForm">
+
+        <label>Name:</label>
+        <input type="text" id="name">
+        <span id="nameError"></span>
+
+        <label>Email:</label>
+        <input type="text" id="email">
+        <span id="emailError"></span>
+
+        <label>Password:</label>
+        <input type="password" id="password">
+        <span id="passwordError"></span>
+
+        <label>Mobile Number:</label>
+        <input type="text" id="mobile">
+        <span id="mobileError"></span>
+
+        <label>Gender:</label>
+        <select id="gender">
+            <option value="">Select Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select>
+        <span id="genderError"></span>
+
+        <button type="submit">Register</button>
+
+    </form>
+
+    <h3 id="message"></h3>
+
+    <hr>
+
+    <h2>DOM Manipulation</h2>
+
+    <button onclick="showText()">Show Hidden Text</button>
+
+    <p id="hiddenText" style="display:none;">
+        Welcome to JavaScript DOM Manipulation!
+    </p>
+
+    <button onclick="changeText()">Format Text</button>
+
+    <h3 id="timer">10</h3>
+    <button onclick="startTimer()">Start Countdown</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

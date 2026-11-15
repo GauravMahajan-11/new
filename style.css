@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    background: lightgray;
+    border-radius: 10px;
+}
+
+input, select {
+    width: 90%;
+    padding: 8px;
+    margin: 8px;
+}
+
+label {
+    display: block;
+    text-align: left;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    background: green;
+    color: white;
+    border: none;
+}
+
+span {
+    color: red;
+    display: block;
+    font-size: 13px;
+}
+
+.dark {
+    background-color: #222;
+    color: white;
+}
